@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Valeria Sánchez">
+    <meta name="description" content="Portafolio de desarrollo web de Valeria Sánchez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Valeria Sánchez | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/tecnolochicaspro_portafolio-main/imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="http://127.0.0.1:5500/tecnolochicaspro_portafolio-main/imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://scontent.fpbc2-3.fna.fbcdn.net/v/t39.30808-6/343967437_1605510099957494_274915814881768338_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFuyAfJbTLjS2SyUjv5mRHGp2Pl-3HMKXunY-X7ccwpe46sIK7jUBvvP8h1ThJ0ngxWOMurbN2oP3QHx_5u9MJ3&_nc_ohc=2ry0_9_3y5YAX8wC03Q&_nc_ht=scontent.fpbc2-3.fna&oh=00_AfBSpCUu4b0k97KCI4X_GvVbIWEWJ7Iuq5c7hjNXWRh4Jw&oe=656357F7" alt="Foto de Valeria Sánchez">
+        <h1>Hola, soy Valeria Sánchez</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://i.pinimg.com/236x/14/6b/65/146b652729bf596c71cd2e1dc6ff14bf.jpg" alt="Mujer en ciencia">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Valeria Sánchez</h2>
+        <p class="seccion-texto">Tengo 18 años y actualmente estudio la licenciatura de biotecnología. Me gusta mucho la ciencia, considero que el universo es tan inmenso que todavia faltan muchas cosas que descubrir y utilizar al beneficio de la humanidad. En la preparatoria tuve un acercamiento con la programación con programas como Pseint, ademas del desarrollo de aplicaciones, pero fue muy leve. Es por esa razón que me meti a TECNOLOchicas PRO, para aprender más sobre este mundo que me intereso y que además estoy consiente que me ayudara respecto a la licenciatura que estoy estudiando.Pero no solo soy una chica de ciencia, amo las diferentes formas de expresión artisitca. Fui bailarina la mayor parte de mi vida y me gusta mucho la actuación. Considero que las artes y la ciencia van mucho de la mano, por eso quiero enseñar que se pueden complementar para hacer un mundo mejor. </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Universidad -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Universidad</p>
+            <p>Estos son algunos de los temas con los que he trabajado en este primer semestre de biotecnología </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Biomatematicas</span>
+              <span class="badge text-bg-primary">Quimica General</span>
+              <span class="badge text-bg-primary">Cultura y medio ambiente</span>
+              <span class="badge text-bg-primary">Terapia Génica</span>
+            </div>
+          </div>
+          <!-- Cursos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Cursos</p>
+            <p>Talleres y cursos que me han ayudado </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">TECNOLOchicas PRO</span>
+              <span class="badge text-bg-primary">Becalos English Challengue</span>
+              <span class="badge text-bg-primary">Curso de medio ambiente </span>
+            </div>
+          </div>
+          <!-- Creación de contenido -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Creación de contenido</p>
+            <p>Me gusta crear contenido en tik tok e instagram, tengo videos virales e instagram lo uso para divulgar ciencia </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tik Tok 16.000 likes</span>
+              <span class="badge text-bg-primary">@Biogeni.c</span>
+              <span class="badge text-bg-primary">@valeriaasza</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://s1.eestatic.com/2015/09/01/elandroidelibre/el_androide_libre_60753981_179965739_1706x960.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://valesitap.github.io/Clon-Google/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/OIP.xJMcqP7pMAFoEwXXEdV3rAHaGj?rs=1&pid=ImgDetMain" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Página Web Celebridad</p>
+                <div class="iconos-contenedor">
+                  <a href="https://valesitap.github.io/P-gina-Celebridad/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/R.7f2a687866c04372ee4485540ac709f0?rik=Gvhc8HJxnPMv7Q&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Página web sobre mi</p>
+                <div class="iconos-contenedor">
+                  <a href="https://valesitap.github.io/Pagina-Web-de-Valeria/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/R.45566c2de32160fa57345201ef574d85?rik=6y1p3CJnY7ZpBg&pid=ImgRaw&r=0" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Creación de mi CV</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.canva.com/design/DAFzN9Oe1Lo/taGECcbGURoeWOtmA62P2w/view?utm_content=DAFzN9Oe1Lo&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/jpeg;base64,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" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Creación perfil de Linkedin</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.linkedin.com/in/valeria-s%C3%A1nchez-zapoteca/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://th.bing.com/th/id/OIP.5vtA56RINio-niUcMEjNjAHaHa?w=182&h=182&c=7&r=0&o=5&pid=1.7" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Página de Divulgación Cientifica en Ig</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.instagram.com/biogeni.c/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis maestros y colaboradores...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1155151337022050355/1172954533811462184/1684464702431.jpeg?ex=65623209&is=654fbd09&hm=350b75a1b318cf358c7897ed73d71201709eff1dfb46ac43e252b16dab5df93e&=&width=420&height=420" alt="Foto de Ana Villanueva">
+              <p class="testimonio-texto">La alumna Valeria Sánchez ha demostrado un notable compromiso en el aula, destacándose por el desarrollo de proyectos de alta calidad que reflejan sus sólidos conocimientos en el ámbito del Frontend, específicamente en HTML y CSS. Además, muestra un compromiso constante con las fechas de entrega y exhibe una notable creatividad en sus trabajos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ana Villanueva</p>
+                <p class="cargo">Docente en TECNOLOchicas PRO</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1155151337022050355/1172953235733106770/Esme_foto_perfil.jpg?ex=656230d3&is=654fbbd3&hm=4532009a567e160ab06783a12f8387730fa03970ecc01241d8afc3f050ead1f5&=&width=420&height=420" alt="Foto de Nora">
+              <p class="testimonio-texto">Es una persona dedicada, responsable y sumamente creativa, sin duda es excelente para un trabajo colaborativo, dado que posee grandiosas habilidades para el desarrollo de múltiples proyectos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Esmeralda Pérez</p>
+                <p class="cargo">Diseñadora Web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://images-ext-2.discordapp.net/external/7awYVoOgTsIVQcMsALhbCMuYuOFSlETAByaa7CfpACo/https/lh3.googleusercontent.com/a/ACg8ocK7IjYhZT_Z-T43gFDUAYfPBLB0h6DEJ4VocprVBIZhCg4%3Ds288-c-no" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Es una persona interesada en el aprendizaje, dedicada, creativa  y responsable. Se compromete en todo lo que se propone y logra alcanzarlo. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Alejandra Balcazar</p>
+                <p class="cargo">Estudiante en TECNOLOchicas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para que juntas podamos hacer grandes proyectos de desarrollo web y ciencia.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://www.linkedin.com/in/valeria-s%C3%A1nchez-zapoteca/">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="data:image/jpeg;base64,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" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+
+        </a>
+        <a href="https://github.com/VALESITAP" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/valeria-s%C3%A1nchez-zapoteca/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/vallee_.sa/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="valeria.sanchezz.un@gmiail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Valeria Sánchez (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
